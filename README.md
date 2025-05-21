@@ -18,7 +18,12 @@ Write the Windows commands / batch file . Save each script in a file with a .bat
 Execute the necessary commands/batch file for the desired output. 
 
 
+## PROGRAM
+```
+Developped By : SIDDHARTH S
+Register Number : 212224040317
 
+```
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
@@ -30,94 +35,44 @@ Remove the directory "my-folder"
 
 ## COMMAND AND OUTPUT
 
+Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
-Create the file Rose.txt
-
-## COMMAND AND OUTPUT
-
-
-Create the file hello.txt using echo and redirection
+![image](https://github.com/user-attachments/assets/98d91440-c84c-4a4c-91f0-f20c98ade902)
 
 ## COMMAND AND OUTPUT
 
-Copy the file hello.txt into the file hello1.txt
+List the contents of the "MyLab" directory.
+![image](https://github.com/user-attachments/assets/4db38b46-9bff-4986-803c-648911098418)
+
+![image](https://github.com/user-attachments/assets/e6484631-efe8-4257-a130-c99aec5807b7)
+
 
 ## COMMAND AND OUTPUT
 
-Remove the file hello1.txt
+Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
+
+![image](https://github.com/user-attachments/assets/4dedf83d-7258-49eb-b063-ca1028d590ff)
+
 
 ## COMMAND AND OUTPUT
 
-List out the file hello1.txt in the current directory
+Move the "MyLab" directory to the "Documents" folder.
+
+![image](https://github.com/user-attachments/assets/761b543c-cf8e-4e42-964a-8a1b9e095d71)
 
 ## COMMAND AND OUTPUT
 
-List out all the associated file extensions 
+mv Myfile.txt %sec%\Documents
+![image](https://github.com/user-attachments/assets/f863f43f-757f-4c89-b6ac-62619b6996ca)
 
-## COMMAND AND OUTPUT
-
-
-Compare the file hello.txt and rose.txt
-
-## COMMAND AND OUTPUT
 
 ## Exercise 2: Advanced Batch Scripting
+
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 
-
-
-
-
 ## OUTPUT
 
-
-
-Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
-Prompt the user to enter a number.
-Calculate the remainder when the number is divided by 2.
-Display whether the number is odd or not.
-Ask the user if they want to check another number.
-Repeat the process if the user enters Y, and exit with a thank-you message if the user enters N.
-Handle invalid inputs for the continuation prompt (Y/N) gracefully.
-
-
-
-## OUTPUT
-
-
-
-
-Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
-
-
-
-
-## OUTPUT
-
-
-
-
-Write a batch script to check whether a file named sample.txt exists in the current directory. If the file exists, display the message sample.txt exists. Otherwise, display sample.txt does not exist. Pause the script at the end to view the result.
-
-Instructions:
-Use the IF EXIST conditional statement.
-Make sure the script works for files located in the same directory as the batch file.
-Use pause to keep the command window open after displaying the message.
-Expected Output (if the file exists):
-
-## OUTPUT
-
-
-Write a batch script that displays a simple menu with three options:
-Say Hello – Displays the message Hello, World!
-Create a File – Creates a file named newfile.txt with the content This is a new file
-Exit – Exits the script with a goodbye message
-The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
-
-
-## OUTPUT
-
-
+![image](https://github.com/user-attachments/assets/7b31ee2b-09fc-4233-942b-cb3daf5334ce)
 
 # RESULT:
 The commands/batch files are executed successfully.
